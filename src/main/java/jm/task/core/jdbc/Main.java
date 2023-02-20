@@ -8,12 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
         userService.createUsersTable();
-        System.out.println("Создали табл");
+        System.out.println("РўР°Р±Р»РёС†Р° СЃРѕР·РґР°РЅР°");
 
-        userService.saveUser("Пользователь 1", "П1", (byte) 22);
-        userService.saveUser("Пользователь 2", "П2", (byte) 35);
-        userService.saveUser("Пользователь 3", "П3", (byte) 85);
-        userService.saveUser("Пользователь 4", "П4", (byte) 54);
+        userService.saveUser("РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ 1", "Рџ1", (byte) 22);
+        userService.saveUser("РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ 2", "Рџ2", (byte) 35);
+        userService.saveUser("РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ 3", "Рџ3", (byte) 85);
+        userService.saveUser("РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ 4", "Рџ4", (byte) 54);
         userService.removeUserById(2);
         userService.getAllUsers();
         userService.cleanUsersTable();
